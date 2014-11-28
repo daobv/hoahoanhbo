@@ -1,0 +1,73 @@
+/*
+Theme Name: Options Check
+Theme URI: http://wptheming.com
+Description: A example/test theme to make sure all the options work in the Options Framework plugin.
+Author: Devin Price
+Author URI: http://wptheming.com
+Version: 1.7
+*/
+
+
+/*FIX 27/10/2014*/
+#tfs-options-wrap h3 {
+	margin-bottom: 0;
+}
+#tfs-options-wrap table.form-table {
+	margin-top: 0;
+}
+#tfs-options-wrap .upload_button_div {
+	margin: 10px 0;
+}
+#tfs-options-wrap .tfs-option-image {
+	max-width: 290px;
+}
+.nav-tab-wrapper a:hover {
+	cursor: pointer;
+}
+#tfs-options-wrap .save_bar {
+	margin-top: 15px;
+}
+#tfs-options-wrap .save_bar #tfs-save {
+	margin-right: 10px;
+}
+#tfs-options-wrap .wp-picker-input-wrap,
+#tfs-options-wrap .wp-picker-input-wrap #tfs-accent-color {
+	width: 100%;
+}
+#tfs-options-wrap .wp-picker-input-wrap .wp-picker-clear {
+	margin: 10px 0 0;
+    width: 50px;
+}
+#tfs-options-wrap .media_upload_button {
+	margin-right: 5px;
+}
+#tfs-options-wrap .ajax-loading-img-bottom {
+	margin: 5px;
+}
+#tfs-options-wrap #msg-success {
+    background-color: #fff;
+    border-left: 4px solid #7ad03a;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 1px 12px;
+}
+#tfs-options-wrap #msg-fail {
+    background-color: #fff;
+    border-left: 4px solid #dd3d36;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 1px 12px;
+}
+.tfs-table-op span {
+  display: block;
+}
+.tfs-op-desc {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+}
+#tfs-options-wrap h2.nav-tab-wrapper {
+  padding-left: 0;
+}
